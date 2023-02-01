@@ -1,2 +1,2 @@
 # My new Portfolio
-[Live Demo](mageshkannan.netlify.app)
+<a href="mageshkannan.netlify.app" target="_blank">Live Demo</a>
