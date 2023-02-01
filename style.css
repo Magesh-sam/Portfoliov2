@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+/* Navbar */
+.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar-nav .nav-item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-nav .nav-item:hover{
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+  transition: 1s;
+
+}
+/* Home */
+#home {
+  background: url("bg.gif");
+  min-height: 600px;
+  height: auto;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.welcome{
+  flex: 50%;
+}
+@media screen and (max-width: 992px) {
+  .welcome {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  #home {
+    flex-direction: column;
+  }
+}
+.welcome-text{
+  padding-left: 25vw;
+  margin-top: 20vh;
+ 
+ 
+}
+.typewrite{
+  text-decoration: none;
+  color: aliceblue;
+}
+.typewrite:hover{
+  text-decoration: none;
+  color: aliceblue;
+}
+.welcome-icons{
+  padding-left: 15vw;
+  margin-top: 25vh;
+ 
+}
+.welcome-icons .icons{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: aliceblue;
+}
+.welcome-icons .linkedin:hover{
+  color: #0a66c2 !important;
+  background-color: white;
+}
+.welcome-icons .github:hover{
+  color: #800080 !important;
+  background-color: white;
+}
+.welcome-icons .whatsapp:hover{
+  color: #44C554 !important;
+  background-color: white;
+}
+/* Projects */
+#project .heading{
+  text-decoration: underline 2px;
+  text-underline-offset: 12px;
+}
+#project .row{
+  margin-left: 30px;
+}
+#project .card{
+ margin-top: 15px;
+ margin-bottom: 15px;
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+/* Resume */
+
+#resume-heading{
+  color: #122d7d;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+
+/* Contect */
+#contact{
+  padding-top: 50px;
+  padding-left: 30px;
+  min-height: 600px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  background-image: url("contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+#thankyoutext{
+ 
+  justify-content: center;
+  padding-left: 100px;
+  color: black;
+  
+}
+.contact-item{
+  flex:50%;
+}
+.contact-item p{ 
+ color: salmon;
+ font-weight: bold;
+
+}
+
+/* footer */
+
+#footer{
+  height: 100px;
+  background-color: rgb(46, 43, 43);
+  bottom: 0;
+  
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 10px;
+ 
+  
+}
+#footer .row a{
+  color: white;
+  text-decoration: none;
+  padding-top: 40px;
+}
+/* Back to top */
